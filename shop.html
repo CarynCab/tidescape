@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop — Tidescape</title>
+  <meta name="description" content="Browse the Tidescape collection. Coastal clothing for the wild, the wandering, and the wave-chasing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav class="nav">
+    <a class="nav-logo" href="index.html">Tide<span>scape</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html" class="active">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="shop.html" class="nav-cta">Shop Now</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+
+    <!-- ── SHOP HERO ── -->
+    <section class="shop-hero">
+      <div class="container">
+        <h1>The <span class="squiggle" style="text-decoration-color: var(--sand);">Collection</span></h1>
+        <p>Every piece made to move with you. From shore to street.</p>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:60px;">
+        <path d="M0,60 C360,20 1080,60 1440,20 L1440,60 L0,60 Z" fill="#FBF3E4"/>
+      </svg>
+    </div>
+
+    <!-- ── SHOP MAIN ── -->
+    <section class="shop-main">
+      <div class="container">
+
+        <!-- Filter bar -->
+        <div class="shop-filter-bar">
+          <div class="filter-tags">
+            <button class="filter-tag active">All</button>
+            <button class="filter-tag">Tops</button>
+            <button class="filter-tag">Dresses</button>
+            <button class="filter-tag">Bottoms</button>
+            <button class="filter-tag">Accessories</button>
+          </div>
+          <select class="sort-select" aria-label="Sort products">
+            <option>Sort: Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest</option>
+          </select>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="product-grid-full">
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #2E7DAF, #7EC8C8);">🌊</div>
+            <div class="product-body">
+              <p class="product-tag">Tops</p>
+              <h3 class="product-name">Saltwater Linen Shirt</h3>
+              <p class="product-desc">Breezy, lightweight linen. Looks better a little wrinkled.</p>
+              <div class="product-footer">
+                <span class="product-price">R 649</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #F4A94E, #F5E6C8);">☀️</div>
+            <div class="product-body">
+              <p class="product-tag">Dresses</p>
+              <h3 class="product-name">Golden Hour Dress</h3>
+              <p class="product-desc">Warm tones, easy fit. Made for chasing the last light.</p>
+              <div class="product-footer">
+                <span class="product-price">R 895</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #1A2B3C, #2E4156);">🐚</div>
+            <div class="product-body">
+              <p class="product-tag">Bottoms</p>
+              <h3 class="product-name">Low Tide Shorts</h3>
+              <p class="product-desc">Quick-dry, deep pockets. From the boat to the bar.</p>
+              <div class="product-footer">
+                <span class="product-price">R 545</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #7EC8C8, #2E7DAF);">🌿</div>
+            <div class="product-body">
+              <p class="product-tag">Tops</p>
+              <h3 class="product-name">Kelp & Calm Tee</h3>
+              <p class="product-desc">Soft organic cotton. Seafoam colourway. Vibes only.</p>
+              <div class="product-footer">
+                <span class="product-price">R 395</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #F5E6C8, #F4A94E);">🪸</div>
+            <div class="product-body">
+              <p class="product-tag">Dresses</p>
+              <h3 class="product-name">Coral Cove Sundress</h3>
+              <p class="product-desc">Flowy, forgiving, and impossible to feel bad in.</p>
+              <div class="product-footer">
+                <span class="product-price">R 750</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #2E4156, #1A2B3C);">⚓</div>
+            <div class="product-body">
+              <p class="product-tag">Tops</p>
+              <h3 class="product-name">Deep Navy Overshirt</h3>
+              <p class="product-desc">Heavy linen, boxy cut. The kind you never take off.</p>
+              <div class="product-footer">
+                <span class="product-price">R 820</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #7EC8C8, #F5E6C8);">🦀</div>
+            <div class="product-body">
+              <p class="product-tag">Bottoms</p>
+              <h3 class="product-name">Shoreline Linen Pants</h3>
+              <p class="product-desc">Wide leg, drawstring waist. Sand in your pockets optional.</p>
+              <div class="product-footer">
+                <span class="product-price">R 690</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #F4A94E, #2E7DAF);">🌅</div>
+            <div class="product-body">
+              <p class="product-tag">Accessories</p>
+              <h3 class="product-name">Dusk Bucket Hat</h3>
+              <p class="product-desc">Wide brim, reversible. Sunset orange on one side.</p>
+              <div class="product-footer">
+                <span class="product-price">R 320</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder" style="background: linear-gradient(145deg, #2E7DAF, #1A2B3C);">🧵</div>
+            <div class="product-body">
+              <p class="product-tag">Accessories</p>
+              <h3 class="product-name">Tidescape Tote</h3>
+              <p class="product-desc">Heavy canvas. Holds a towel, a book, and your whole vibe.</p>
+              <div class="product-footer">
+                <span class="product-price">R 280</span>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Shopify integration note (for the brand owner) -->
+        <div class="shopify-note">
+          <h3>Ready for real checkout</h3>
+          <p>
+            To activate "Add to Cart" with real payments, create a Shopify account, add your products,
+            then enable the <strong>Buy Button channel</strong>. Replace each
+            <code>btn-cart</code> button with the embed snippet Shopify gives you.
+            No coding needed — Shopify handles payments, stock, and shipping.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave → footer -->
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:70px;">
+        <path d="M0,70 C480,0 960,70 1440,0 L1440,70 L0,70 Z" fill="#1A2B3C"/>
+      </svg>
+    </div>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">Tide<span>scape</span></div>
+          <p class="footer-tagline">Coastal clothing for the wild, the wandering, and the wave-chasing. Wear the shore.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 Tidescape. All rights reserved.</span>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
